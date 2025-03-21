@@ -35,3 +35,20 @@ The program uses a modified merge sort algorithm to count the number of inversio
 2. Run the `inversion.py` file using Python:
    ```bash
    python inversion.py
+
+## Example Output
+1. For the array [16, 8, 4, 2, 1], the program will output: 
+2. Number of inversions are: 10
+
+
+## Customizing the Input
+**To test the program with a different array:**
+
+1. Open the inversion.py file.
+2. Modify the array variable in the if __name__ == "__main__": block:
+3. array = [your, custom, array, here]
+4. Save the file and re-run the program
+
+## Complexity
+1. Time Complexity: O(n log n) (due to the merge sort algorithm).
+2. Space Complexity: O(n) (for the temporary array used during merging).
